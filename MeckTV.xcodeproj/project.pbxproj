@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AC86CED529828F6400D4EBA8 /* MeckTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CED429828F6400D4EBA8 /* MeckTVApp.swift */; };
-		AC86CED729828F6400D4EBA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CED629828F6400D4EBA8 /* ContentView.swift */; };
 		AC86CED929828F6500D4EBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC86CED829828F6500D4EBA8 /* Assets.xcassets */; };
 		AC86CEDC29828F6500D4EBA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC86CEDB29828F6500D4EBA8 /* Preview Assets.xcassets */; };
+		AC86CEE729828F9500D4EBA8 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEE229828F9500D4EBA8 /* HexColors.swift */; };
+		AC86CEE829828F9500D4EBA8 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEE329828F9500D4EBA8 /* HomepageView.swift */; };
+		AC86CEE929828F9500D4EBA8 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEE429828F9500D4EBA8 /* SplashScreen.swift */; };
+		AC86CEEA29828F9500D4EBA8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEE529828F9500D4EBA8 /* Fonts.swift */; };
+		AC86CEEB29828F9500D4EBA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEE629828F9500D4EBA8 /* ContentView.swift */; };
+		AC92416E29A9012F006B603C /* VideoPlayerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92416D29A9012F006B603C /* VideoPlayerMenu.swift */; };
+		AC92417029A90157006B603C /* MenuVisibilityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92416F29A90157006B603C /* MenuVisibilityController.swift */; };
+		AC92417229A9017F006B603C /* VideoPlayerMenuButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92417129A9017F006B603C /* VideoPlayerMenuButtons.swift */; };
+		ACB0546A29A44F70002ADC8C /* MeckTVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0546929A44F70002ADC8C /* MeckTVPlayer.swift */; };
+		ACC1F4A829A92137000A59E5 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC1F4A629A92136000A59E5 /* Merriweather-Regular.ttf */; };
+		ACC1F4A929A92137000A59E5 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC1F4A729A92137000A59E5 /* Lato-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC86CED129828F6400D4EBA8 /* MeckTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeckTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC86CED429828F6400D4EBA8 /* MeckTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeckTVApp.swift; sourceTree = "<group>"; };
-		AC86CED629828F6400D4EBA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC86CED829828F6500D4EBA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC86CEDB29828F6500D4EBA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC86CEE229828F9500D4EBA8 /* HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColors.swift; sourceTree = "<group>"; };
+		AC86CEE329828F9500D4EBA8 /* HomepageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		AC86CEE429828F9500D4EBA8 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		AC86CEE529828F9500D4EBA8 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		AC86CEE629828F9500D4EBA8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC86CEEC298290A800D4EBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC92416D29A9012F006B603C /* VideoPlayerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerMenu.swift; sourceTree = "<group>"; };
+		AC92416F29A90157006B603C /* MenuVisibilityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVisibilityController.swift; sourceTree = "<group>"; };
+		AC92417129A9017F006B603C /* VideoPlayerMenuButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerMenuButtons.swift; sourceTree = "<group>"; };
+		ACB0546929A44F70002ADC8C /* MeckTVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeckTVPlayer.swift; sourceTree = "<group>"; };
+		ACC1F4A629A92136000A59E5 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		ACC1F4A729A92137000A59E5 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,19 @@
 		AC86CED329828F6400D4EBA8 /* MeckTV */ = {
 			isa = PBXGroup;
 			children = (
+				AC86CEEC298290A800D4EBA8 /* Info.plist */,
 				AC86CED429828F6400D4EBA8 /* MeckTVApp.swift */,
-				AC86CED629828F6400D4EBA8 /* ContentView.swift */,
+				AC86CEE629828F9500D4EBA8 /* ContentView.swift */,
+				AC86CEE529828F9500D4EBA8 /* Fonts.swift */,
+				AC86CEE229828F9500D4EBA8 /* HexColors.swift */,
+				AC86CEE329828F9500D4EBA8 /* HomepageView.swift */,
+				ACB0546929A44F70002ADC8C /* MeckTVPlayer.swift */,
+				AC92417129A9017F006B603C /* VideoPlayerMenuButtons.swift */,
+				AC92416F29A90157006B603C /* MenuVisibilityController.swift */,
+				AC92416D29A9012F006B603C /* VideoPlayerMenu.swift */,
+				AC86CEE429828F9500D4EBA8 /* SplashScreen.swift */,
+				ACC1F4A629A92136000A59E5 /* Merriweather-Regular.ttf */,
+				ACC1F4A729A92137000A59E5 /* Lato-Bold.ttf */,
 				AC86CED829828F6500D4EBA8 /* Assets.xcassets */,
 				AC86CEDA29828F6500D4EBA8 /* Preview Content */,
 			);
@@ -126,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC86CEDC29828F6500D4EBA8 /* Preview Assets.xcassets in Resources */,
+				ACC1F4A829A92137000A59E5 /* Merriweather-Regular.ttf in Resources */,
 				AC86CED929828F6500D4EBA8 /* Assets.xcassets in Resources */,
+				ACC1F4A929A92137000A59E5 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC86CED729828F6400D4EBA8 /* ContentView.swift in Sources */,
+				AC92417029A90157006B603C /* MenuVisibilityController.swift in Sources */,
+				AC86CEE829828F9500D4EBA8 /* HomepageView.swift in Sources */,
+				AC92416E29A9012F006B603C /* VideoPlayerMenu.swift in Sources */,
+				AC92417229A9017F006B603C /* VideoPlayerMenuButtons.swift in Sources */,
+				AC86CEEA29828F9500D4EBA8 /* Fonts.swift in Sources */,
+				AC86CEEB29828F9500D4EBA8 /* ContentView.swift in Sources */,
+				ACB0546A29A44F70002ADC8C /* MeckTVPlayer.swift in Sources */,
+				AC86CEE929828F9500D4EBA8 /* SplashScreen.swift in Sources */,
 				AC86CED529828F6400D4EBA8 /* MeckTVApp.swift in Sources */,
+				AC86CEE729828F9500D4EBA8 /* HexColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -265,11 +307,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"MeckTV/Preview Content\"";
-				DEVELOPMENT_TEAM = GX89WLVS58;
+				DEVELOPMENT_TEAM = 8462243PH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeckTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeckTV;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,9 +324,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = come.asherpope.MeckTV;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asherpope.MeckTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,11 +342,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"MeckTV/Preview Content\"";
-				DEVELOPMENT_TEAM = GX89WLVS58;
+				DEVELOPMENT_TEAM = 8462243PH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeckTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeckTV;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,9 +359,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = come.asherpope.MeckTV;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asherpope.MeckTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

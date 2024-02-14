@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import AVKit
 
 @main
 struct MeckTVApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().preferredColorScheme(.dark)
         }
     }
 }

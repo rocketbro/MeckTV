@@ -1,26 +1,37 @@
-//
-//  ContentView.swift
-//  MeckTV
-//
-//  Created by Asher Pope on 1/26/23.
-//
-
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
+    @State private var showingSplash = true
+    // Set up MeckTV stream player
+    let player = AVPlayer(url: URL(string: "https://mecklenburg-admin.ravnur.com/channels/1-WRkqyx/master.m3u8")!)
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if showingSplash {
+            SplashScreen()
+                .onAppear {
+                    do {
+                        try AVAudioSession.sharedInstance().setCategory(.playback)
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                    player.play()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                        withAnimation {
+                            showingSplash.toggle()
+                        }
+                    }
+                }
+        } else {
+            Homepage(player: player)
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+
+struct ContentView_Preview: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().preferredColorScheme(.light)
     }
 }
